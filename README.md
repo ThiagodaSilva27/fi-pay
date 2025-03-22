@@ -1,6 +1,6 @@
 # 🏦 Fi-Pay
 
-🚀 **Sistema de gerenciamento de pagamentos e análise de dados para Growth Marketing, utilizando Vue.js, Nuxt.js, Node.js, MySQL, AWS e Kibana.**
+🚀 **Sistema de gerenciamento de pagamentos e análise de dados para Growth Marketing, utilizando Vue.js, Nuxt.js, Node.js, MySQL e Kibana.**
 
 ---
 
@@ -9,7 +9,6 @@
 - **Frontend**: Vue.js, Nuxt.js, HTML, CSS
 - **Backend**: Node.js, TypeScript, Express
 - **Banco de Dados**: MySQL
-- **Infraestrutura**: Linux, Docker, AWS (SQS, S3)
 - **Monitoramento**: Kibana
 - **SEO & Marketing**: Google Analytics, Tag Manager
 - **Testes Automatizados**: Jest, Vitest, Cypress
@@ -59,8 +58,7 @@ fi-pay/
 │── backend/        # Código do servidor (Node.js, Express)
 │── frontend/       # Aplicação frontend (Vue.js, Nuxt.js)
 │── database/       # Scripts de migração do banco de dados
-│── tests/          # Testes automatizados (Jest, Vitest, Cypress)
-│── docker/         # Configuração do Docker e Compose
+│── tests/          # Testes automatizados
 │── .gitignore      # Arquivos ignorados no versionamento
 │── README.md       # Documentação do projeto
 ```
@@ -69,31 +67,10 @@ fi-pay/
 
 ## 🔥 Principais Funcionalidades
 ✅ Emissão e gestão de pagamentos via API RESTful  
-✅ Dashboard com análise de dados para Growth Marketing  
-✅ Integração com serviços da AWS (S3 para armazenar arquivos, SQS para filas)  
+✅ Dashboard com análise de dados para Growth Marketing   
 ✅ Monitoramento com Kibana para logs e métricas  
 ✅ Integração opcional com WordPress e PHP  
 ✅ Testes automatizados garantindo a robustez do código  
-
----
-
-## 🚀 Fluxo de Commits e Versionamento
-
-1. **Criação de Branches:**
-   - `main` → Versão estável
-   - `dev` → Desenvolvimento
-   - `feature/nome-da-feature` → Para cada funcionalidade nova
-
-2. **Padrão de Commits:**
-   - `feat:` Nova funcionalidade
-   - `fix:` Correção de bug
-   - `refactor:` Refatoração de código
-   - `test:` Adição ou alteração de testes
-
-Exemplo:
-```bash
-git commit -m "feat: adicionar integração com AWS S3"
-```
 
 ---
 
