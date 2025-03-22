@@ -1,0 +1,17 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn.lock
+.env
+
+# Vue.js/Nuxt.js
+.nuxt/
+.output/
+
+# Docker
+docker-compose.override.yml
+*.log
+
+# IDEs e SO
+.DS_Store
+.vscode/
